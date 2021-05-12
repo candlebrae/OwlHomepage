@@ -1,0 +1,220 @@
+/* Copyright Owls Collective, 2021
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see https://www.gnu.org/licenses/. 
+
+Why the license for a tiny bit of code? Because we want to guarentee it stays free for all to use, modify, and redistribute. It's not a lot of code, nor is it particularly complicated, but copyright laws still apply (surprisingly) and including a license is needed to guarentee these freedoms.*/
+
+
+/* !!! Change these variables to change colors, fonts, etc. !!! */
+body {
+	--topBGColor: #430340;
+	--bottomBGColor: #230230;
+	--textColor: #ffe2f9;
+	--font: Monospace;
+	--buttonColor: #693977;
+	--mouseoverButtonColor: #814593;
+	--searchColor: #140114;
+	--buttonColor: #693977;
+}
+
+
+/* The rest of the CSS. */
+/* This bit makes it so that the page scales with your browser's window. Neat! */
+@viewport {
+	width: device-width;
+  	zoom: 1.0; 
+ } 
+ /* Whole page effects. */		
+body, html {	
+	height: 100%;
+	background-image: linear-gradient(var(--topBGColor), var(--bottomBGColor));
+/* Here's a good color if you change it to a plain background: #340132 */
+    background-size: cover;
+    background-repeat: repeat;
+    color: var(--textColor);
+    font-family: var(--font); 
+}
+/* Had to be specified to keep the buttons consistent- otherwise the text color changes after you click on them. */
+a:link {
+	color: var(--textColor);
+	text-decoration: none;
+}
+a:visited {
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+/* Sets up grid formatting- don't change if you aren't at least a little bit familiar with grid format. */
+.gridcontainer {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	grid-template-rows: auto auto auto auto auto auto auto auto auto;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/* The twelve buttons and their hover effects. */
+.box1 {
+	background-color: var(--buttonColor);
+	grid-column: 1;
+	grid-row: 1;
+	padding: 5px;
+	margin-top: 15px;
+}
+.box1:hover {
+	background-color: var(--mouseoverButtonColor);
+}
+
+.box2 {
+	background-color: var(--buttonColor);
+	grid-column: 2;
+	grid-row: 1;
+	padding: 5px;
+	margin-top: 15px;
+}
+.box2:hover {
+	background-color: var(--mouseoverButtonColor);
+}
+
+.box3 {
+	background-color: var(--buttonColor);
+	grid-column: 3;
+	grid-row: 1;
+	padding: 5px;
+	margin-top: 15px;
+}
+.box3:hover {
+	background-color: var(--mouseoverButtonColor);
+}
+
+.box4 {
+	background-color: var(--buttonColor);
+	grid-column: 4;
+	grid-row: 1;
+	padding: 5px;
+	margin-top: 15px;
+}
+.box4:hover {
+	background-color: var(--mouseoverButtonColor);
+}
+
+.box5 {
+	background-color: var(--buttonColor);
+	grid-column: 5;
+	grid-row: 1;
+	padding: 5px;
+	margin-top: 15px;
+}
+.box5:hover {
+	background-color: var(--mouseoverButtonColor);
+}
+
+.box6 {
+	background-color: var(--buttonColor);
+	grid-column: 6;
+	grid-row: 1;
+	padding: 5px;
+	margin-top: 15px;
+}
+.box6:hover {
+	background-color: var(--mouseoverButtonColor);
+}
+
+.box7 {
+	background-color: var(--buttonColor);
+	grid-column: 1;
+	grid-row: 8;
+	padding: 5px;
+}
+.box7:hover {
+	background-color: var(--mouseoverButtonColor);
+}
+
+.box8 {
+	background-color: var(--buttonColor);
+	grid-column: 2;
+	grid-row: 8;
+	padding: 5px;
+}
+.box8:hover {
+	background-color: var(--mouseoverButtonColor);
+}
+
+.box9 {
+	background-color: var(--buttonColor);
+	grid-column: 3;
+	grid-row: 8;
+	padding: 5px;
+}
+.box9:hover {
+	background-color: var(--mouseoverButtonColor);
+}
+
+.box10 {
+	background-color: var(--buttonColor);
+	grid-column: 4;
+	grid-row: 8;
+	padding: 5px;
+}
+.box10:hover {
+	background-color: var(--mouseoverButtonColor);
+}
+
+.box11 {
+	background-color: var(--buttonColor);
+	grid-column: 5;
+	grid-row: 8;
+	padding: 5px;
+}
+.box11:hover {
+	background-color: var(--mouseoverButtonColor);
+}
+
+.box12 {
+	background-color: var(--buttonColor);
+	grid-column: 6;
+	grid-row: 8;
+	padding: 5px;
+}
+.box12:hover {
+background-color: var(--mouseoverButtonColor);
+}
+
+/* This positions the pictures in the middle, hence the name. */
+.middle {
+	grid-column: 1 / 7;
+	grid-row: 3 / 7;
+}
+
+/* Search bar styling */
+.query {
+	grid-column: 1 / 7;
+	grid-row: 2;
+}
+
+form .searchbar {
+	background-color: var(--searchColor);
+	height: 50px;
+}
+input {
+	all: unset;
+	background-color: var(--searchColor);
+	padding: 6px 10px;
+}
+form .submit {
+	all: unset;
+	background-color: var(--buttonColor);
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	cursor: pointer;
+	height: 20px;
+}
+form .submit:hover {
+	background-color: var(--mouseoverButtonColor);
+}
+#query {
+	width: 85%; 
+	height: 20px;
+}
