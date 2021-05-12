@@ -11,7 +11,7 @@ To set this as your homepage:
 			- If that doesn't work, try file://///
 			- If you're on Windows and the above isn't working, try C: , file:///c:/ , or file://C:/
 		- On Chrome: Hit Control + 0 (zero) on your keyboard or follow the Firefox directions.
-		- On Edge: There's no way to do this without compromising security. If you REALLY want to do it anyway:
+		- On Edge: There's no way to do this without compromising security. If you REALLY want to do it:
 			- Open up your Internet options and click on the Security tab.
 			- Choose local intranet and click on sites.
 			- Uncheck the “include all local (intranet) sites not listed in other zones” box.
