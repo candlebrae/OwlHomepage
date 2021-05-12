@@ -1,3 +1,6 @@
+A custom homepage featuring a functional search bar, 12 custom buttons, and a purple color scheme by default. Designed to be changed and tweaked as much as you want.
+
+---
 To set this as your homepage:
 
 1. Unzip this folder and place it somewhere that your web browser can access it and where it won't be overwritten (I put it inside of my web browser's .config folder and haven't had any issues).
@@ -40,12 +43,5 @@ Other customization help:
 
 - The search engine is on line 77 of the HTML file. To change it, change the link after "action=" to your search engine of choice. A few privacy-respecting options are listed starting at line 70.
 
-More in-depth information:
-
-- I wrote the CSS using variables, which is supported on most major browsers and will save you a lot of looking and repetition when changing colors! If it's not working on your browser, you may need to replace the variables manually. Sorry, it'll be a bit of a pain. Ctrl + F is your friend here.
-	- Tested on Firefox, Librewolf, GNU Icecat, NetSurf, Min, Falkon, and webbrowser. No Chrome because I don't trust Google, but it should work there. Should likewise work on Edge. Did not work on NetSurf.
-- Grid formatting was used to place the image and buttons. Turns out that you can use <a> as a container for grids!
-
 ---
-TLDR of the GPL 3.0 license:
-- You can modify everything to your heart's content, make derivative works, redistribute it in whatever ways you choose, and otherwise do whatever you want with this. If you do redistribute this or derivative works, you must use the same license or newer, and you must provide a copy of it along with the source code (i.e. you have to release it with the same freedoms).
+Licensed under GPL 3.0 or later.
