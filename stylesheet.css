@@ -3,21 +3,8 @@ This program is free software: you can redistribute it and/or modify it under th
 
 Why the license for a tiny bit of code? Because we want to guarentee it stays free for all to use, modify, and redistribute. It's not a lot of code, nor is it particularly complicated, but copyright laws still apply (surprisingly) and including a license is needed to guarentee these freedoms.*/
 
+@import "colors.cfg";
 
-/* !!! Change these variables to change colors, fonts, etc. !!! */
-body {
-	--topBGColor: #430340;
-	--bottomBGColor: #230230;
-	--textColor: #ffe2f9;
-	--font: Monospace;
-	--buttonColor: #693977;
-	--mouseoverButtonColor: #814593;
-	--searchColor: #140114;
-	--buttonColor: #693977;
-}
-
-
-/* The rest of the CSS. */
 /* This bit makes it so that the page scales with your browser's window. Neat! */
 @viewport {
 	width: device-width;

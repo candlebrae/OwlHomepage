@@ -1,4 +1,23 @@
-A custom homepage featuring a functional search bar, 12 custom buttons, and a purple color scheme by default. Designed to be changed and tweaked as much as you want.
+A custom homepage featuring a functional search bar, 12 custom buttons, and a violet color scheme by default. Designed to be changed and tweaked to your liking. Colors can be customized in the colors.cfg file.
+
+---
+To set the button links to something you'll actually use:
+
+1. Open the homepage.html file.
+
+2. There are a bunch of <a href="(link)"> tags. Replace the links with whatever you want the button to link to (keep the quotes though!).
+	- Likewise, the button labels are inside the <p> tags. Feel free to change them!
+
+3. Save the file.
+
+---
+Other customization help:
+
+- If you want to replace the middle image, its dimensions are 1920 x 670px. If you choose a different name, make sure to change the filename on line 62 of the HTML file.
+
+- If you change the button colors, make sure you also change the hover colors. Otherwise you'll be in for some color weirdness when hovering over a button. Just make it a shade or two lighter or darker than your main color and it'll look great.
+
+- The search engine is on line 68 of the HTML file. To change it, change the link after "action=" to your search engine of choice. A few privacy-respecting options are listed starting at line 60.
 
 ---
 To set this as your homepage:
@@ -11,7 +30,7 @@ To set this as your homepage:
 			- If that doesn't work, try file://///
 			- If you're on Windows and the above isn't working, try C: , file:///c:/ , or file://C:/
 		- On Chrome: Hit Control + 0 (zero) on your keyboard or follow the Firefox directions.
-		- On Edge: There's no way to do this without compromising security. If you REALLY want to do it anyway:
+		- On Edge: There's no way to do this without compromising security. If you REALLY want to do it:
 			- Open up your Internet options and click on the Security tab.
 			- Choose local intranet and click on sites.
 			- Uncheck the “include all local (intranet) sites not listed in other zones” box.
@@ -21,27 +40,6 @@ To set this as your homepage:
 	- Even if you know the location and think you can type it in correctly, open the file before setting it as your homepage to make sure you have it right. An invalid homepage can crash web browsers in a way that's harder to fix (source: I made the mistake of mistyping the file location and my browser refused to start up until I found its config files and manually fixed it). It's best to make sure you have it right.
 
 3. Copy the contents of the url bar and set that as your homepage through your normal settings menu (or config files, if you prefer that).
-
----
-To set the button links to something you'll actually use:
-
-1. Open the homepage.html file.
-
-2. There are a bunch of <a href="(link)"> tags. Replace the links with whatever you want the button to link to (keep the quotes though!).
-	- Likewise, the button labels are inside the <a> tags. Feel free to change them!
-
-3. Save the file.
-
----
-Other customization help:
-
-- If you want to replace the middle image, its dimensions are 1920 x 670px.
-
-- Colors can be changed at the top of the CSS file. I did my best to make it easy on you.
-
-- If you change the button colors, make sure you also change the hover colors. Otherwise you'll be in for some color weirdness when hovering over a button. Just make it a shade or two lighter or darker than your main color and it'll look great.
-
-- The search engine is on line 77 of the HTML file. To change it, change the link after "action=" to your search engine of choice. A few privacy-respecting options are listed starting at line 70.
 
 ---
 Licensed under GPL 3.0 or later.
