@@ -48,9 +48,11 @@ a:visited {
 	grid-row: 1;
 	padding: 5px;
 	margin-top: 15px;
+	border-radius: 10px;
 }
 .box1:hover {
 	background-color: var(--mouseoverButtonColor);
+	cursor: pointer;
 }
 
 .box2 {
@@ -59,9 +61,11 @@ a:visited {
 	grid-row: 1;
 	padding: 5px;
 	margin-top: 15px;
+	border-radius: 10px;
 }
 .box2:hover {
 	background-color: var(--mouseoverButtonColor);
+	cursor: pointer;
 }
 
 .box3 {
@@ -70,9 +74,11 @@ a:visited {
 	grid-row: 1;
 	padding: 5px;
 	margin-top: 15px;
+	border-radius: 10px;
 }
 .box3:hover {
 	background-color: var(--mouseoverButtonColor);
+	cursor: pointer;
 }
 
 .box4 {
@@ -81,9 +87,11 @@ a:visited {
 	grid-row: 1;
 	padding: 5px;
 	margin-top: 15px;
+	border-radius: 10px;
 }
 .box4:hover {
 	background-color: var(--mouseoverButtonColor);
+	cursor: pointer;
 }
 
 .box5 {
@@ -92,9 +100,11 @@ a:visited {
 	grid-row: 1;
 	padding: 5px;
 	margin-top: 15px;
+	border-radius: 10px;
 }
 .box5:hover {
 	background-color: var(--mouseoverButtonColor);
+	cursor: pointer;
 }
 
 .box6 {
@@ -103,9 +113,11 @@ a:visited {
 	grid-row: 1;
 	padding: 5px;
 	margin-top: 15px;
+	border-radius: 10px;
 }
 .box6:hover {
 	background-color: var(--mouseoverButtonColor);
+	cursor: pointer;
 }
 
 .box7 {
@@ -113,9 +125,11 @@ a:visited {
 	grid-column: 1;
 	grid-row: 8;
 	padding: 5px;
+	border-radius: 10px;
 }
 .box7:hover {
 	background-color: var(--mouseoverButtonColor);
+	cursor: pointer;
 }
 
 .box8 {
@@ -123,9 +137,11 @@ a:visited {
 	grid-column: 2;
 	grid-row: 8;
 	padding: 5px;
+	border-radius: 10px;
 }
 .box8:hover {
 	background-color: var(--mouseoverButtonColor);
+	cursor: pointer;
 }
 
 .box9 {
@@ -133,9 +149,11 @@ a:visited {
 	grid-column: 3;
 	grid-row: 8;
 	padding: 5px;
+	border-radius: 10px;
 }
 .box9:hover {
 	background-color: var(--mouseoverButtonColor);
+	cursor: pointer;
 }
 
 .box10 {
@@ -143,9 +161,11 @@ a:visited {
 	grid-column: 4;
 	grid-row: 8;
 	padding: 5px;
+	border-radius: 10px;
 }
 .box10:hover {
 	background-color: var(--mouseoverButtonColor);
+	cursor: pointer;
 }
 
 .box11 {
@@ -153,9 +173,11 @@ a:visited {
 	grid-column: 5;
 	grid-row: 8;
 	padding: 5px;
+	border-radius: 10px;
 }
 .box11:hover {
 	background-color: var(--mouseoverButtonColor);
+	cursor: pointer;
 }
 
 .box12 {
@@ -163,9 +185,11 @@ a:visited {
 	grid-column: 6;
 	grid-row: 8;
 	padding: 5px;
+	border-radius: 10px;
 }
 .box12:hover {
-background-color: var(--mouseoverButtonColor);
+	background-color: var(--mouseoverButtonColor);
+	cursor: pointer;
 }
 
 /* This positions the pictures in the middle, hence the name. */
